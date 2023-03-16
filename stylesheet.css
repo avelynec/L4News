@@ -1,0 +1,238 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header-container {
+    width: 1100px;
+    margin:auto;
+    display:flex;
+    margin-bottom: 20px;
+}
+.logo a {
+    font-size: 40px;
+    font-weight: bold;
+    float:left;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FF7315;
+}
+.menu {
+    float:right;
+}
+nav {
+    width: 100%;
+    margin:auto;
+    line-height: 80px;
+    position:static;
+    top:0;
+    background:rgb(244, 244, 244, 0.8);
+    z-index:1px;
+}
+nav ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+nav ul li {
+    float:left;
+}
+nav ul li a {
+    color:#232020;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    margin-left:15px;
+}
+nav ul li a:hover {
+    color:#FF7315;
+}
+.top-container {
+    margin:auto;
+    width:1100px;
+    display:flex;
+    margin-bottom: 20px;
+    z-index:0px;
+    position:relative;
+}
+.column {
+    margin-left:50px;
+    margin-top:15px;
+    width:40%;
+}
+.column h1 {
+    margin-bottom:15px;
+    font-size: 18px;
+}
+.column ol li {
+    list-style-position: outside;
+}
+.column ol li::marker {
+    font-weight: bold;
+}
+.column ol li a {
+    color:#232020;
+    padding: 0px 20px 0px 0px;
+    text-decoration: none;
+    font-size:15px;
+    line-height: 24px;
+}
+.column ol li a:hover{
+    color:#FF7315;
+}
+.category {
+    color: red;
+    margin-top:3px;
+    margin-bottom:7px;
+    font-size:15px;
+    font-weight: 500;
+}
+.headline-news {
+    position:relative;
+    width:60%;
+}
+.headline-news img {
+    width: 660px;
+}
+.headline-news h1 {
+    position:absolute;
+    top:8px;
+    left:10px;
+    color:rgb(234, 118, 51);
+    font-size: 15px;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    padding: 5px 7px 5px 7px;
+}
+.headline-news p a {
+    position:absolute;
+    bottom:17px;
+    left:10px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+}
+.contents-container {
+    margin:auto;
+    width:1100px;
+}
+.contents-heading {
+    margin-bottom:15px;
+    font-size: 19px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 2px solid #FF7315;
+}
+.other-news {
+    display:flex;
+    width:33.33%;
+}
+.other-news img {
+    height: 210px;
+    border-radius: 10px;
+}
+.news {
+    margin-right: 10px;
+}
+.news p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.news p a {
+    color:#232020;
+    padding: 0px 20px 0px 0px;
+    text-decoration: none;
+    font-size:17px;
+    line-height: 15px;
+}
+.news p a:hover {
+    color:#FF7315;
+}
+.form {
+    margin:auto;
+    margin-top:30px;
+    width:1100px;
+    text-align: center;
+}
+.form-heading {
+    border-top: 2px solid #FF7315;
+    padding: 20px 0px 10px 0px;
+    font-size: 20px;
+}
+.form-description {
+    font-size: 15px;
+    color: #232020c6;
+}
+.btn-wrapper {
+    margin:10px 5px 10px 5px;
+}
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+.facebook {
+    background-color: rgba(59,89,152,0.8);
+    margin-right:15px;
+}
+.google {
+    background-color: rgba(220,78,65,0.8);
+}
+.btn:hover {
+    opacity:1;
+}
+.fa {
+    padding-right:10px;
+}
+.input,input {
+    width: 270px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #8b9faa;
+}
+.form-input {
+    font-size:15px;
+    margin-top: 10px;
+    color:#232020c6;
+    font-weight: bold;
+}
+.form-submit {
+    background-color: rgba(255, 115, 21, 0.7);
+    margin-top:10px;
+    color: white;
+    font-size: 15px;
+}
+.form p a {
+    padding-top:20px;
+    padding-bottom: 20px;
+    color:#FF7315;
+    font-size: 12px;
+}
+footer {
+    border-top: 1px solid #FF7315;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:20px;
+    padding-top:15px;
+    width:1100px;
+    text-align: left;
+}
+.footer-logo {
+    color: #FF7315;
+    font-weight: bold;
+    font-size: 40px;
+}
+.footer-container p {
+    font-size:12px;
+    line-height:15px;
+    opacity:0.8;
+}
